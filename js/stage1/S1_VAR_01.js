@@ -1,20 +1,10 @@
-// S1_VAR_01 - Declare & observe var / let / const
-
-var a = "hello";
-
-let b = 42;
-
-const c = true;
-
+// S1_VAR_01 — Declare & observe
+var greeting = "hello"; // string
+let count = 42; // number
+const isActive = true; // boolean
 console.table([
-
-  { name: "a", value: a, type: typeof a },
-
-  { name: "b", value: b, type: typeof b },
-
-  { name: "c", value: c, type: typeof c }
-
+  { name: "greeting", value: greeting, type: typeof greeting },
+  { name: "count", value: count, type: typeof count },
+  { name: "isActive", value: isActive, type: typeof isActive },
 ]);
-
-console.log("S1_VAR_01 completed");
- 
+console.log("S1_VAR_01 finished");
