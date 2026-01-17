@@ -1,10 +1,7 @@
-// S2_ARR_01 - Clean numbers
+// S2_ARR_01 — Clean numbers
 function cleanNumbers(arr) {
- return arr
-   .map(x => +x)
-   .filter(x => !Number.isNaN(x));
+  return arr.map((v) => +v).filter((v) => !Number.isNaN(v));
 }
-const input = [" 1 ", "x", "2"];
-const output = cleanNumbers(input);
-console.log("Input:", input);
-console.log("Output:", output);
+// Test
+const input = [" 1 ", "x", "2", "3.5", "abc"];
+console.log(cleanNumbers(input)); // [1, 2, 3.5]
