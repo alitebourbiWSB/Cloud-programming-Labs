@@ -1,10 +1,10 @@
-// Stage 2 - Array example 01
-
-const numbers = [1, 2, 3, 4, 5];
-
-numbers.forEach(n => {
-
-  console.log(n);
-
-});
- 
+// S2_ARR_01 - Clean numbers
+function cleanNumbers(arr) {
+ return arr
+   .map(x => +x)
+   .filter(x => !Number.isNaN(x));
+}
+const input = [" 1 ", "x", "2"];
+const output = cleanNumbers(input);
+console.log("Input:", input);
+console.log("Output:", output);
