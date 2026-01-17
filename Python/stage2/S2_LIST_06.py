@@ -18,8 +18,8 @@ users = [
     {"id": 2, "name": "Sara", "active": False},
 
     {"id": 3, "name": "Ola", "active": True},
-
-]
+ 
+ ]
 
 print(active_user_names(users))
  
