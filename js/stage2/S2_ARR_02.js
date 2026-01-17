@@ -1,0 +1,12 @@
+// S2_ARR_02 — Deduplicate
+function unique(values) {
+  const result = [];
+  for (const v of values) {
+    if (!result.includes(v)) {
+      result.push(v);
+    }
+  }
+  return result;
+}
+// Test
+console.log(unique([1, 2, 2, 3, 1, 4]));
