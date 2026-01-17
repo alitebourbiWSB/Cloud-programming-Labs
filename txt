@@ -1,0 +1,11 @@
+/js
+ /stage1
+   S1_VAR_01.js
+   S1_VAR_02.js
+   ...
+ /stage2
+   S2_ARR_01.js
+   ...
+ /stage3
+   S3_OBJ_01.js
+   ...
